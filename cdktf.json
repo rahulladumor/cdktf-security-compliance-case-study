@@ -1,0 +1,11 @@
+{
+  "language": "go",
+  "app": "go run main.go",
+  "projectId": "security-compliance-infrastructure",
+  "terraformProviders": ["aws@~> 5.0"],
+  "terraformModules": [],
+  "context": {
+    "excludeStackIdFromLogicalIds": "true",
+    "allowSepCharsInLogicalIds": "true"
+  }
+}
